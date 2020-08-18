@@ -20,7 +20,7 @@ public class ExerciseJava {
         int[] komposit = {4,6,8,9,10,12,14,15,16,18};
         for(int i = 0; i <= (komposit.length-1); i++){
             if(i % 2 == 0){
-                System.out.print(komposit[i]+" ");
+                System.out.print(komposit[i]+" "); //Output: 4,8,10,14,16
                 
             }
         }
@@ -28,7 +28,7 @@ public class ExerciseJava {
         int[] number = {1,2,3,4,6,7,8,9,10,11,13,14,16,20};
         for(int j = 0; j <= (number.length - 1); j++){
             if(number[j] % 2 == 0){
-                System.out.print(number[j]+" ");
+                System.out.print(number[j]+" "); //Output; 2 4 6 8 10 14 16 20
             }
                 
         }
