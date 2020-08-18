@@ -23,10 +23,15 @@ public class ExerciseJava {
                 System.out.print(komposit[i]+" ");
                 
             }
-           
-            
+        }
+        System.out.println();
+        int[] number = {1,2,3,4,6,7,8,9,10,11,13,14,16,20};
+        for(int j = 0; j <= (number.length - 1); j++){
+            if(number[j] % 2 == 0){
+                System.out.print(number[j]+" ");
+            }
+                
         }
        
     }
-    
-}
+}   
